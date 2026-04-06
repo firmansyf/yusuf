@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yusuf Firmansyah — Portfolio
+
+Personal portfolio website built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS v4**. Designed to showcase experience, projects, and skills to recruiters and potential clients.
+
+---
+
+## Tech Stack
+
+| Category | Technology |
+|---|---|
+| Framework | Next.js 15.5 (App Router) |
+| UI Library | React 19 |
+| Language | TypeScript 5 |
+| Styling | Tailwind CSS v4 |
+| Icons | React Icons v5 |
+| Email | EmailJS |
+| Font | Geist (Sans + Mono) |
+| Bundler | Turbopack |
+
+---
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Home — hero, typewriter animation, stats, tech stack |
+| `/tentang` | About — bio, experience timeline, skills grid |
+| `/portfolio` | Portfolio — project cards with descriptions |
+| `/kontak` | Contact — EmailJS form + contact info |
+
+---
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout (Header + Navigations)
+│   ├── page.tsx            # Home page
+│   ├── tentang/page.tsx    # About page
+│   ├── portfolio/page.tsx  # Portfolio page
+│   └── kontak/page.tsx     # Contact page
+├── components/
+│   ├── header/             # Sticky top header
+│   ├── dataDisplay/        # Bottom navigation bar
+│   └── AnimatedBackground  # Shared mouse-tracking blob background
+├── data/
+│   ├── experience/         # Work experience data
+│   ├── project/            # Project data
+│   └── skill/              # Skills list
+├── viewModel/
+│   ├── homeVM/             # Home page hook
+│   ├── aboutVM/            # About page hook
+│   ├── portfolioVM/        # Portfolio page hook
+│   └── contactVM/          # Contact form hook (EmailJS)
+├── types/                  # TypeScript type definitions
+└── helpers/
+    └── constant.ts         # EmailJS configuration keys
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/yusuf-firmansyah.git
+cd yusuf-firmansyah
+
+# Install dependencies
+npm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3007](http://localhost:3007) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+### Lint
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Environment — EmailJS Setup
 
-## Deploy on Vercel
+The contact form uses [EmailJS](https://www.emailjs.com/) to send emails without a backend. Keys are stored in `src/helpers/constant.ts`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```ts
+export const SERVICE_EMAIL_ID  = 'your_service_id'
+export const EMAIL_TEMPLATE_ID = 'your_template_id'
+export const EMAILjS_PUBLIC_KEY = 'your_public_key'
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> **Note:** For production, move these values to environment variables (`.env.local`) and reference them via `process.env`.
+
+---
+
+## Features
+
+- Typewriter animation cycling through role titles
+- Mouse-tracking animated blob background (shared component)
+- Responsive layout — mobile first, desktop two-column hero
+- Skill grid with tech icons and brand colors
+- Experience timeline with current/past indicators
+- Project cards with role badge, date range, and hover effects
+- EmailJS contact form with loading and status feedback
+- Staggered slide-up entrance animations
+- Sticky header with "Open to Work" badge
+- Fixed bottom navigation with active route highlighting
+
+---
+
+## Deployment
+
+The easiest way to deploy is via [Vercel](https://vercel.com):
+
+```bash
+npm install -g vercel
+vercel
+```
+
+Or connect your GitHub repository directly at [vercel.com/new](https://vercel.com/new).
+
+---
+
+## Author
+
+**Yusuf Firmansyah** — Frontend Engineer
+
+- LinkedIn: [linkedin.com/in/yusuf-firmansyah](https://www.linkedin.com/in/yusuf-firmansyah/)
+- Email: yusuffirmansyamh@gmail.com
+- Location: Bandung, Indonesia
