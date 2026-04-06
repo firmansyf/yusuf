@@ -1,0 +1,15 @@
+export const Skill = [ 
+    { label: 'Javascript'},
+    { label: 'Typescript'},
+    { label: 'Jquery'},
+    { label: 'ReactJs'},
+    { label: 'NextJs'},
+    { label: 'AngularJs'},
+    { label: 'VueJs'},
+    { label: 'RestAPI'},
+    { label: 'NodeJs'},
+    { label: 'ExpressJs'},
+    { label: 'Postgres'},
+    { label: 'Cypress'},
+    { label: 'Jest'},
+]
