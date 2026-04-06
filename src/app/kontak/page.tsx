@@ -186,7 +186,7 @@ export default function Kontak() {
             <div className="mt-auto p-5 rounded-2xl bg-gradient-to-br from-blue-50 to-purple-50 border border-blue-100 shadow-sm">
               <HiSparkles className="text-yellow-500 text-xl mb-2" />
               <p className="text-sm text-gray-600 italic leading-relaxed">
-                "I&apos;m passionate about building products that make a difference. Let&apos;s create something great together."
+                &ldquo;I&apos;m passionate about building products that make a difference. Let&apos;s create something great together.&rdquo;
               </p>
               <p className="text-xs font-bold text-gray-700 mt-3">— Yusuf Firmansyah</p>
             </div>
