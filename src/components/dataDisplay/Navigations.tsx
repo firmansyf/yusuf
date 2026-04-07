@@ -18,8 +18,8 @@ export default function Navigations() {
   ]
 
   return (
-    <div className="w-full flex justify-center items-center py-3">
-      <div className="flex items-center justify-center gap-2 bg-white/90 backdrop-blur-xl border border-gray-200/50 rounded-full px-6 py-3 shadow-xl hover:shadow-2xl transition-all duration-300">
+    <div className="w-full flex justify-center items-center py-2 sm:py-3 px-3">
+      <div className="flex items-center justify-center gap-1 sm:gap-2 bg-white/90 backdrop-blur-xl border border-gray-200/50 rounded-full px-2 sm:px-6 py-2 sm:py-3 shadow-xl hover:shadow-2xl transition-all duration-300 w-full max-w-md sm:w-auto">
         {links.map((link) => {
           const isActive = pathname === link.href
 
@@ -27,7 +27,7 @@ export default function Navigations() {
             <Link
               key={link.href}
               href={link.href}
-              className={`flex flex-col items-center justify-center px-6 py-2 rounded-2xl transition-all duration-300 min-w-[80px] ${
+              className={`flex flex-col items-center justify-center px-2 sm:px-6 py-1.5 sm:py-2 rounded-2xl transition-all duration-300 flex-1 sm:flex-none sm:min-w-[80px] ${
                 isActive
                   ? 'bg-gradient-to-r from-green-500 to-green-600 text-white shadow-lg scale-105'
                   : 'text-gray-700 hover:bg-gray-100 hover:scale-105'
