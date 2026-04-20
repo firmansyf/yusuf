@@ -16,7 +16,7 @@ export const Experience = [
     {
         position: 'Frontend Developer',
         company : 'Serenade Story',
-        start_date: 'Feb 2024',
+        start_date: 'February 2024',
         end_date: 'August 2025',
         work_status: false,
     },
@@ -24,7 +24,7 @@ export const Experience = [
         position: 'Frontend Developer',
         company : 'Cudo Cummunications',
         start_date: 'September 2023',
-        end_date: 'January 2025',
+        end_date: 'January 2024',
         work_status: false,
     },
     {
