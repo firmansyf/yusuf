@@ -104,7 +104,7 @@ export default function Portfolio() {
                     </div>
 
                     {/* Footer */}
-                    <div className="mt-auto pt-3 border-t border-gray-100 flex items-center justify-between">
+                    {/* <div className="mt-auto pt-3 border-t border-gray-100 flex items-center justify-between">
                       <div className="flex items-center gap-1.5 text-gray-400 text-xs">
                         <AiOutlineCalendar />
                         <span>{item.start_date} – {item.end_date}</span>
@@ -113,7 +113,7 @@ export default function Portfolio() {
                         <span className="px-2 py-0.5 text-xs font-semibold text-blue-600 bg-blue-50 rounded-full">React</span>
                         <span className="px-2 py-0.5 text-xs font-semibold text-purple-600 bg-purple-50 rounded-full">Next.js</span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   {/* Bottom accent line */}

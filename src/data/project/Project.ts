@@ -1,5 +1,29 @@
 export const Project = [
     {
+        img: '/treasuretraining.svg',
+        name: 'Treasure Training',
+        description: 'Full-stack development for Treasure Training, a corporate training platform in Malaysia, including course/program listing, training registration system, responsive UI, and backend integration to support HRDC-claimable training programs.',
+        start_date: 'March 2025',
+        end_date: 'August 2025',
+        as: 'Fullstack Developer',
+    },
+    {
+        img: '/carbns.png',
+        name: 'Carbns',
+        description: 'Developed the full-stack website for CARBNS, a car marketplace platform connecting customers with trusted vehicle listings.',
+        start_date: 'March 2025',
+        end_date: 'August 2025',
+        as: 'Fullstack Developer',
+    },
+    {
+        img: '/kingjess.png',
+        name: 'KingJess',
+        description: 'Developed the full-stack website for KingJess, a natural skincare brand focused on clean ingredients and transparency.',
+        start_date: 'March 2025',
+        end_date: 'August 2025',
+        as: 'Fullstack Developer',
+    },
+    {
         img: '/underarmour.jpg',
         name: 'Under Armour',
         description: 'I’m developing Under Armour Official Indonesia, an e-commerce platform for high-performance sports apparel and accessories.',
