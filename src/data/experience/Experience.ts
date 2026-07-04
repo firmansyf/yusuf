@@ -3,8 +3,8 @@ export const Experience = [
         position: 'Fullstack Developer',
         company : 'Newgen Development',
         start_date: 'November 2025',
-        end_date: null,
-        work_status: true,
+        end_date: "Juni 2026",
+        work_status: false,
     },
     {
         position: 'Frontend Developer',

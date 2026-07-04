@@ -77,10 +77,10 @@ export default function Tentang() {
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
               <span className="text-xs font-semibold text-green-700">Open to Work</span>
             </div>
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
+            {/* <div className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 border border-blue-200 rounded-full">
               <HiBriefcase className="text-blue-500 text-xs" />
               <span className="text-xs font-semibold text-blue-700">Newgen Development</span>
-            </div>
+            </div> */}
             <div className="flex items-center gap-1.5 px-3 py-1.5 bg-white border border-gray-200 rounded-full">
               <BiSolidMap className="text-red-400 text-xs" />
               <span className="text-xs font-semibold text-gray-600">Bandung, Indonesia</span>

@@ -110,10 +110,10 @@ export default function Home() {
                 </div>
 
                 {/* Current company */}
-                <div className="flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full shadow-sm">
+                {/* <div className="flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-200 rounded-full shadow-sm">
                   <HiBriefcase className="text-blue-600 text-sm" />
                   <span className="text-xs font-semibold text-blue-700">Currently at Newgen Development</span>
-                </div>
+                </div> */}
 
                 {/* Location */}
                 <div className="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full shadow-sm">
@@ -143,10 +143,15 @@ export default function Home() {
                   LinkedIn
                 </Link>
 
-                <button className="group flex items-center gap-2 bg-white border-2 border-gray-200 hover:border-blue-300 text-gray-700 hover:text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5">
+                <Link
+                  href="https://docs.google.com/document/d/1hdqctVwdioIrsrBEexfKS4-QutgKRCLif-x1Mdb17WU/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center gap-2 bg-white border-2 border-gray-200 hover:border-blue-300 text-gray-700 hover:text-blue-600 px-6 py-3 rounded-xl font-semibold shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5"
+                >
                   <AiOutlineDownload className="text-lg group-hover:translate-y-0.5 transition-transform" />
                   Resume
-                </button>
+                </Link>
               </div>
 
               {/* Social Links */}
