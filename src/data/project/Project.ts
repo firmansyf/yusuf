@@ -6,6 +6,7 @@ export const Project = [
         start_date: 'March 2025',
         end_date: 'August 2025',
         as: 'Fullstack Developer',
+        site: 'https://www.treasuretraining.com/'
     },
     {
         img: '/carbns.png',
@@ -14,6 +15,7 @@ export const Project = [
         start_date: 'March 2025',
         end_date: 'August 2025',
         as: 'Fullstack Developer',
+        site: 'https://www.carbns.com/'
     },
     {
         img: '/kingjess.png',
@@ -22,6 +24,7 @@ export const Project = [
         start_date: 'March 2025',
         end_date: 'August 2025',
         as: 'Fullstack Developer',
+        site: 'https://www.kingjess.com/'
     },
     {
         img: '/underarmour.jpg',
@@ -30,6 +33,7 @@ export const Project = [
         start_date: 'March 2025',
         end_date: 'August 2025',
         as: 'Frontend Developer',
+        site: 'https://www.underarmour.co.id/'
     },
     {
         img: '/pos.svg',
@@ -46,6 +50,7 @@ export const Project = [
         start_date: 'January 2025',
         end_date: 'September 2025',
         as: 'Fulstack Developer',
+        site: 'https://cbt.trisakti.ac.id/'
     },
     {
         img: '/adainacara.png',
@@ -54,6 +59,7 @@ export const Project = [
         start_date: 'February 2024',
         end_date: 'September 2025',
         as: 'Frontend Developer',
+        site: 'https://adainacara.com/'
     },
     {
         img: '',

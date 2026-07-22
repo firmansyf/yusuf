@@ -5,4 +5,5 @@ export type ProjectItem = {
     start_date: string;
     end_date: string;
     as: string;
+    site?: string
   };

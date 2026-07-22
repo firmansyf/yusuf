@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { HiSparkles } from "react-icons/hi"
 import { BiLinkExternal, BiCode } from "react-icons/bi"
-import { AiOutlineCalendar } from "react-icons/ai"
+import Link from "next/link";
 import { MdWorkOutline } from "react-icons/md"
 
 export default function Portfolio() {
@@ -77,10 +77,10 @@ export default function Portfolio() {
 
                     {/* Hover overlay */}
                     <div className="absolute inset-0 bg-gradient-to-t from-blue-900/60 via-blue-900/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end justify-center pb-4">
-                      <div className="flex items-center gap-2 text-white text-sm font-semibold bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
+                      <Link href={`${item.site}`} target='_blank' className="flex items-center gap-2 text-white text-sm font-semibold bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
                         <BiLinkExternal />
                         View Project
-                      </div>
+                      </Link>
                     </div>
 
                     {/* Role badge */}
