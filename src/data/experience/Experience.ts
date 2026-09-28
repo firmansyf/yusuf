@@ -1,9 +1,16 @@
 export const Experience = [
     {
+        position: 'Frontend Developer',
+        company : 'PT Idstar Cipta Technology',
+        start_date: 'September 2025',
+        end_date: null,
+        work_status: true,
+    },
+    {
         position: 'Fullstack Developer',
         company : 'Newgen Development',
         start_date: 'November 2025',
-        end_date: "Juni 2026",
+        end_date: "August 2026",
         work_status: false,
     },
     {

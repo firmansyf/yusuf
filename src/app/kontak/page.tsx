@@ -109,7 +109,7 @@ export default function Kontak() {
               <button
                 type="submit"
                 disabled={isSending}
-                className="group relative w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3.5 rounded-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-blue-200 hover:shadow-xl overflow-hidden hover:-translate-y-0.5"
+                className="group cursor-pointer relative w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3.5 rounded-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-blue-200 hover:shadow-xl overflow-hidden hover:-translate-y-0.5"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                 <span className="relative flex items-center justify-center gap-2 text-sm">
