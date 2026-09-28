@@ -1,4 +1,13 @@
 export const Project = [
+     {
+        img: '/firstMateBeauties.png',
+        name: 'FirstMate Beauty',
+        description: 'As a Owner First Mate Beauty is a skincare e-commerce platform dedicated to helping Indonesians find and purchase the right skincare products with ease. We are committed to delivering a shopping experience that is simple, trustworthy, and personal — because we believe everyone deserves healthy skin without the confusion.',
+        start_date: 'Feb 2025',
+        end_date: 'present',
+        as: 'Fullstack Developer',
+        site: 'https://www.firstmatebeauties.com/'
+    },
     {
         img: '/treasuretraining.svg',
         name: 'Treasure Training',
